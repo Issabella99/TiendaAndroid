@@ -12,14 +12,23 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/Proveedores"
+        android:id="@+id/txt_proveedores"
         android:name="com.example.tiendaandroid.ui.gallery.GalleryFragment"
         android:label="Proveedores"
-        tools:layout="@layout/fragment_gallery" />
+        tools:layout="@layout/fragment_gallery" >
+        <action
+            android:id="@+id/action_txt_proveedores_to_proveedores_guardar"
+            app:destination="@id/proveedores_guardar" />
+    </fragment>
 
     <fragment
         android:id="@+id/Categoria"
         android:name="com.example.tiendaandroid.ui.slideshow.SlideshowFragment"
         android:label="Categoria"
         tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/proveedores_guardar"
+        android:name="com.example.tiendaandroid.proveedores_guardar"
+        android:label="fragment_proveedores_guardar"
+        tools:layout="@layout/proveedores_guardar" />
 </navigation>

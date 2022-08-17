@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".proveedores_guardar">
+
+    <TextView
+        android:id="@+id/txt_proveedoresGuardar"
+        android:layout_width="252dp"
+        android:layout_height="43dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="26dp"
+        android:fontFamily="@font/montserrat_alternates_bold"
+        android:text="Proveedores"
+        android:textAlignment="center"
+        android:textColor="@color/purple_500"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/txt_empresaProveedor"
+        android:layout_width="324dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="122dp"
+        android:ems="10"
+        android:hint="Empresa"
+        android:inputType="textPersonName"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/txt_infoProveedor"
+        android:layout_width="324dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/txt_telAsesorProveedor"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="19dp"
+        android:ems="10"
+        android:hint="Info Adicional"
+        android:inputType="textPersonName"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/txt_asesorProveedor"
+        android:layout_width="324dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="386dp"
+        android:ems="10"
+        android:hint="Asesor"
+        android:inputType="textPersonName"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/txt_dirProveedor"
+        android:layout_width="324dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/txt_empresaProveedor"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="19dp"
+        android:ems="10"
+        android:hint="Direccion"
+        android:inputType="textPersonName"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/txt_telProveedor"
+        android:layout_width="324dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/txt_dirProveedor"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="19dp"
+        android:ems="10"
+        android:hint="Telefono"
+        android:inputType="phone"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/txt_telAsesorProveedor"
+        android:layout_width="324dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/txt_asesorProveedor"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="19dp"
+        android:ems="10"
+        android:hint="Telefono Asesor"
+        android:inputType="phone"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/txt_emailProveedor"
+        android:layout_width="324dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/txt_telProveedor"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="19dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+    <Button
+        android:id="@+id/btn_guardarProveedor"
+        android:layout_width="153dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/txt_infoProveedor"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        android:layout_marginBottom="48dp"
+        android:minHeight="48dp"
+        android:text="Guardar" />
+
+</RelativeLayout>
